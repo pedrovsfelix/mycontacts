@@ -1,0 +1,21 @@
+{
+  "name": "mycontacts",
+  "version": "1.0.0",
+  "description": "API to store contacts",
+  "main": "src/index.js",
+  "author": "Pedro Félix",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
